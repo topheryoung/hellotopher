@@ -46,6 +46,13 @@ const Navigation = styled.nav`
         opacity: 0;
         transition: all 200ms ease-in;
       }
+      &.active {
+        color: #FF4200;
+        &:after {
+          opacity: 1;
+          bottom: -10px;
+        }
+      }
     }
   }
 `
@@ -53,11 +60,13 @@ const Navigation = styled.nav`
 const Header = () => {
   return (
     <TopBar>
-      <img src={Logo} alt="Topher Young logo"/>
+      <Link to="/">
+        <img src={Logo} alt="Topher Young logo"/>
+      </Link>
       <Navigation>
         <ul>
-          <li><Link to="/bio">Bio</Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/bio/" activeClassName="active">Bio</Link></li>
+          <li><Link to="/portfolio/" activeClassName="active">Portfolio</Link></li>
         </ul>
       </Navigation>
     </TopBar>

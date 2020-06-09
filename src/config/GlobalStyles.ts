@@ -3,14 +3,15 @@ import BG from '../images/bg.png'
 
 const GlobalStyles = createGlobalStyle`
   html {
+    height: 100%;
     box-sizing: border-box;
-    background: #FF9E80 url(${BG}) repeat top left;
+    background-color: #FF9E80;
   }
 
   body {
     background-color: #EAE7E1;
     border-left: 10px solid #362D2D;
-    height: 100vh;
+    min-height: 100%;
     padding: 75px 100px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -21,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
     color: #EAE7E1;
   }
 
-  nav, a {
+  nav {
     font-family: 'Roboto Mono', monospace;
   }
 
@@ -44,6 +45,7 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 700;
     text-transform: uppercase;
     margin: 20px 0 0 0;
+    max-width: 600px;
   }
 
   h2 {
@@ -70,6 +72,17 @@ const GlobalStyles = createGlobalStyle`
     line-height: 30px;
     color: #786666;
     font-size: 18px;
+    a {
+      position: relative;
+      text-decoration: none;
+      color: #786666;
+      box-shadow: inset 0 -3px 0 -1px #ffffff;
+      transition: all 150ms ease-in;
+      &:hover {
+        box-shadow: inset 0 -20px 0 -1px #ffffff;
+        transition: all 150ms ease-in;
+      }
+    }
   }
 
   hr {
