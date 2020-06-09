@@ -12,55 +12,55 @@ export const client_content = [
   {
     logo: Acorns,
     name: 'Acorns',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
+    desc: 'Lead front-end engineer for the Smart Deposit feature/product and the Google Chrome Extension plugin for the financial tech startup, Acorns.',
     url: 'https://acorns.com/'
   },
   {
     logo: Batchgeo,
     name: 'Batchgeo',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
+    desc: 'Contracted front-end developer and designer for the GPS mapping web/native application, Batchgeo. Helped build out mobile native client UI and settings feature.',
     url: 'https://batchgeo.com/'
   },
   {
     logo: Vibe,
     name: 'Vibe Vans',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
-    url: 'https://acorns.com/'
+    desc: 'Full-stack contractor for the LA-based startup, Vibe Vans. Built and launched their iOS/Android application to integrate into their IoT service for their van fleet.',
+    url: 'https://www.vibevans.la/'
   },
   {
     logo: Gigaphoton,
-    name: 'Acorns',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
-    url: 'https://acorns.com/'
+    name: 'Gigaphoton',
+    desc: 'Contracted tech lead and full-stack engineer for an internal Gigaphoton interactive visualization platform for their current and future Product Roadmap.',
+    url: 'https://www.gigaphoton.com/'
   },
   {
     logo: Mentor,
-    name: 'Acorns',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
-    url: 'https://acorns.com/'
+    name: 'Mentor Graphics',
+    desc: 'Front-end developer contracted via Graybox for Mentor Graphics (now Siemens) responsible for building their internal employee Time Tracking mobile/web application.',
+    url: 'https://www.mentor.com/'
   },
   {
     logo: Bridgestone,
-    name: 'Acorns',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
-    url: 'https://acorns.com/'
+    name: 'Bridgestone',
+    desc: 'Lead UX/UI designer and product manager contracted via Levelwing for an internal Bridgestone sales web application dashboard.',
+    url: 'https://www.bridgestone.com/'
   },
   {
     logo: Idexperts,
-    name: 'Acorns',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
-    url: 'https://acorns.com/'
+    name: 'ID Experts',
+    desc: 'Contracted front-end developer and designer via Graybox for the CMS build out and customization for the new ID Experts website.',
+    url: 'https://www.idexpertscorp.com/'
   },
   {
     logo: NewPrimal,
-    name: 'Acorns',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
-    url: 'https://acorns.com/'
+    name: 'The New Primal',
+    desc: 'Contracted UX designer, front-end CMS developer, and packaging designer via Levelwing for The New Primal website redesign and packaging redesign',
+    url: 'https://thenewprimal.com/'
   },
   {
     logo: Aramark,
     name: 'Acorns',
-    desc: 'Lead front-end engineer for the Smart Deposit feature for the financial tech startup, Acorns. Launched new brand for their Chrome Extension plugin.',
-    url: 'https://acorns.com/'
+    desc: "Graphic/UX designer and marketing associate for Aramark's southeast region higher education Dining Services responsible for building out marketing campaigns and collateral.",
+    url: 'https://www.aramark.com/'
   },
 ]

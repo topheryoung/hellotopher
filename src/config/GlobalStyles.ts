@@ -67,14 +67,24 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
   }
 
+  a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: #362D2D;
+    &:hover {
+      color: #FF4200;
+      transition: color 150ms ease-in;
+    }
+  }
+
   p {
-    max-width: 520px;
+    max-width: 525px;
     line-height: 30px;
     color: #786666;
     font-size: 18px;
     a {
       position: relative;
-      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
       color: #786666;
       box-shadow: inset 0 -3px 0 -1px #ffffff;
       transition: all 150ms ease-in;

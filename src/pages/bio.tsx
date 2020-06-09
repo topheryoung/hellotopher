@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Layout from '../components/layout'
+import SocialMedai from '../components/social'
+import SocialMedia from '../components/social'
 
 const Social = styled.div`
   display: flex;
@@ -35,6 +37,8 @@ const Bio = () => {
         I am currently taking on contracting work so if you are interested in making magic together, contact me at <a href="mailto:topher@hellotopher.com">topher@hellotopher.com</a>.
       </p>
       <hr />
+      <a href="#" target="_blank">View my resume</a>
+      <SocialMedia />
     </Layout>
   )
 }
