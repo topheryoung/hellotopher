@@ -66,7 +66,7 @@ const Header = () => {
       <Navigation>
         <ul>
           <li><Link to="/bio/" activeClassName="active">Bio</Link></li>
-          <li><Link to="/portfolio/" activeClassName="active">Portfolio</Link></li>
+          <li><Link to="/clients/" activeClassName="active">Clients</Link></li>
         </ul>
       </Navigation>
     </TopBar>
