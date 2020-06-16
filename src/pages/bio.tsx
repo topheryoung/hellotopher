@@ -48,14 +48,14 @@ const Profile = styled.div`
     content: '';
     position: absolute;
     border: 1px solid #FF4200;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 15px;
     height: 100%;
     width: 100%;
   }
   @media only screen and (min-width: 769px) {
     margin-bottom: 0;
-    height: 450px;
+    height: 400px;
   }
 `
 
