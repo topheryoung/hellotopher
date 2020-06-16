@@ -60,7 +60,7 @@ const Clients = () => {
       <h3>People I've worked with</h3>
       <h1>Making kickass things with kickass people</h1>
       <p>
-        Over the last 10 years, I have had the privaledge of working with and for these awesome companies. For more detail, view my <a href="#">resume</a>.
+        Over the last 10 years, I have had the privaledge of working with and for these awesome companies. For more detail, view my <a href="/assets/topherYoungResume.pdf" target="_blank">resume</a>.
       </p>
       <hr />
       <ClientList>

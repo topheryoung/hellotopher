@@ -12,9 +12,12 @@ const GlobalStyles = createGlobalStyle`
     background-color: #EAE7E1;
     border-left: 10px solid #362D2D;
     min-height: 100%;
-    padding: 75px 100px;
+    padding: 25px;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    @media only screen and (min-width: 768px) {
+      padding: 75px 100px;
+    }
   }
 
   ::selection {

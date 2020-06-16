@@ -14,7 +14,11 @@ interface Props {
 }
 
 const Content = styled.main`
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  @media only screen and (min-width: 768px) {
+    margin-top: 100px;
+  }
 `
 
 const Layout = ({ children, title, desc, url}: Props) => {
