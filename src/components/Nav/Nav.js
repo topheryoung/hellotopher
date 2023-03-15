@@ -1,10 +1,21 @@
 import React from "react";
+import styled from "styled-components";
 import { Link } from "react-router-dom";
+
+import Hamburger from "./Hamburger";
+
+const Header = styled.header`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
 
 const Nav = () => {
   return (
-    <header>
+    <Header>
       <span>Topher Young</span>
+      <span>Icon</span>
+      <Hamburger />
       <nav>
         <ul>
           <li>
@@ -21,7 +32,7 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </Header>
   );
 };
 

@@ -32775,15 +32775,37 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
 var _reactRouterDom = require("react-router-dom");
+var _hamburger = require("./Hamburger");
+var _hamburgerDefault = parcelHelpers.interopDefault(_hamburger);
+const Header = (0, _styledComponentsDefault.default).header`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+_c = Header;
 const Nav = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                 children: "Topher Young"
             }, void 0, false, {
                 fileName: "src/components/Nav/Nav.js",
-                lineNumber: 7,
+                lineNumber: 16,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                children: "Icon"
+            }, void 0, false, {
+                fileName: "src/components/Nav/Nav.js",
+                lineNumber: 17,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hamburgerDefault.default), {}, void 0, false, {
+                fileName: "src/components/Nav/Nav.js",
+                lineNumber: 18,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
@@ -32795,12 +32817,12 @@ const Nav = ()=>{
                                 children: "Work"
                             }, void 0, false, {
                                 fileName: "src/components/Nav/Nav.js",
-                                lineNumber: 11,
+                                lineNumber: 22,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Nav/Nav.js",
-                            lineNumber: 10,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32809,12 +32831,12 @@ const Nav = ()=>{
                                 children: "About"
                             }, void 0, false, {
                                 fileName: "src/components/Nav/Nav.js",
-                                lineNumber: 14,
+                                lineNumber: 25,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Nav/Nav.js",
-                            lineNumber: 13,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32823,12 +32845,12 @@ const Nav = ()=>{
                                 children: "Work"
                             }, void 0, false, {
                                 fileName: "src/components/Nav/Nav.js",
-                                lineNumber: 17,
+                                lineNumber: 28,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Nav/Nav.js",
-                            lineNumber: 16,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -32837,43 +32859,44 @@ const Nav = ()=>{
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "src/components/Nav/Nav.js",
-                                lineNumber: 20,
+                                lineNumber: 31,
                                 columnNumber: 13
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/Nav/Nav.js",
-                            lineNumber: 19,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Nav/Nav.js",
-                    lineNumber: 9,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Nav/Nav.js",
-                lineNumber: 8,
+                lineNumber: 19,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Nav/Nav.js",
-        lineNumber: 6,
+        lineNumber: 15,
         columnNumber: 5
     }, undefined);
 };
-_c = Nav;
+_c1 = Nav;
 exports.default = Nav;
-var _c;
-$RefreshReg$(_c, "Nav");
+var _c, _c1;
+$RefreshReg$(_c, "Header");
+$RefreshReg$(_c1, "Nav");
 
   $parcel$ReactRefreshHelpers$54e6.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1U3k6":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","styled-components":"1U3k6","./Hamburger":"frdf4"}],"1U3k6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ServerStyleSheet", ()=>Je);
@@ -34551,7 +34574,150 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 module.exports = hoistNonReactStatics;
 
-},{"544de86f76473b79":"7EuwB"}],"1F0Tb":[function(require,module,exports) {
+},{"544de86f76473b79":"7EuwB"}],"frdf4":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d241 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d241.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styledComponents = require("styled-components");
+var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
+const Matrix = (0, _styledComponentsDefault.default).button`
+  padding: 5px;
+  background: transparent;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+`;
+_c = Matrix;
+const Row = (0, _styledComponentsDefault.default).div`
+  height: 4px;
+  display: flex;
+  padding: 4px 0;
+  flex-direction: row;
+  margin: 0;
+  position: relative;
+`;
+_c1 = Row;
+const Circle = (0, _styledComponentsDefault.default).div`
+  height: 4px;
+  width: 4px;
+  margin: 0 2px;
+  background-color: ${({ theme  })=>theme.svg};
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 100ms ease-in;
+`;
+_c2 = Circle;
+const Hamburger = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Matrix, {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Row, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {}, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 37,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {
+                        className: "dot"
+                    }, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {}, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 39,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Nav/Hamburger.js",
+                lineNumber: 36,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Row, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {
+                        className: "dot"
+                    }, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 42,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {}, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 43,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {
+                        className: "dot"
+                    }, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 44,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Nav/Hamburger.js",
+                lineNumber: 41,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Row, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {}, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 47,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {
+                        className: "dot"
+                    }, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Circle, {}, void 0, false, {
+                        fileName: "src/components/Nav/Hamburger.js",
+                        lineNumber: 49,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Nav/Hamburger.js",
+                lineNumber: 46,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Nav/Hamburger.js",
+        lineNumber: 35,
+        columnNumber: 5
+    }, undefined);
+};
+_c3 = Hamburger;
+exports.default = Hamburger;
+var _c, _c1, _c2, _c3;
+$RefreshReg$(_c, "Matrix");
+$RefreshReg$(_c1, "Row");
+$RefreshReg$(_c2, "Circle");
+$RefreshReg$(_c3, "Hamburger");
+
+  $parcel$ReactRefreshHelpers$d241.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1F0Tb":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a68b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34623,12 +34789,14 @@ const colors = {
 const lightTheme = {
     body: colors.white,
     text: colors.gray900,
-    main: colors.gray000
+    main: colors.gray000,
+    svg: colors.gray900
 };
 const darkTheme = {
     body: colors.black,
     text: colors.gray100,
-    main: colors.gray900
+    main: colors.gray900,
+    svg: colors.gray100
 };
 
   $parcel$ReactRefreshHelpers$a68b.postlude(module);

@@ -60,10 +60,12 @@ export const lightTheme = {
   body: colors.white,
   text: colors.gray900,
   main: colors.gray000,
+  svg: colors.gray900,
 };
 
 export const darkTheme = {
   body: colors.black,
   text: colors.gray100,
   main: colors.gray900,
+  svg: colors.gray100,
 };
