@@ -24,11 +24,11 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background: ${({ theme }) => theme.body};
+    background: ${({ theme }) => theme.backgrounds.body};
     padding: 24px;
     height: 100vh;
     width: 100ww;
-    transition: background 0.2s ease-in, color 0.2s ease-in, padding 0.2s ease-in;
+    transition: background 0.2s ease-in, color 0.2s ease-in;
   }
   h1 {
     color: ${({ theme }) => theme.text};
@@ -36,11 +36,11 @@ export const GlobalStyles = createGlobalStyle`
   main {
     width: 100%;
     height: 100%;
-    background: ${({ theme }) => theme.main};
+    background: ${({ theme }) => theme.backgrounds.main};
   }
 `;
 
-export const colors = {
+const colors = {
   black: "#212529",
   white: "#FFFFFF",
   gray000: "#F9F9FC",
@@ -56,16 +56,39 @@ export const colors = {
   gray1000: "#191a1e",
 };
 
-export const lightTheme = {
-  body: colors.white,
-  text: colors.gray900,
-  main: colors.gray000,
-  svg: colors.gray900,
+const fonts = {
+  sans: "'Outfit', sans-serif",
 };
 
-export const darkTheme = {
-  body: colors.black,
-  text: colors.gray100,
-  main: colors.gray900,
-  svg: colors.gray100,
+const modes = {
+  dark: {
+    backgrounds: {
+      body: colors.black,
+      main: colors.gray900,
+    },
+    svg: {
+      hamburger: colors.gray100,
+    },
+    font: {
+      h1: colors.gray100,
+    },
+  },
+  light: {
+    backgrounds: {
+      body: colors.white,
+      main: colors.gray000,
+    },
+    svg: {
+      hamburger: colors.gray900,
+    },
+    font: {
+      h1: colors.gray900,
+    },
+  },
 };
+
+export const theme = (type) => ({
+  ...modes[type],
+  colors,
+  fonts,
+});

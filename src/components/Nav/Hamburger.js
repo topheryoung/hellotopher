@@ -24,7 +24,7 @@ const Circle = styled.div`
   height: 4px;
   width: 4px;
   margin: 0 2px;
-  background-color: ${({ theme }) => theme.svg};
+  background-color: ${({ theme }) => theme.svg.hamburger};
   border-radius: 50%;
   display: inline-block;
   transition: all 100ms ease-in;
