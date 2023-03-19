@@ -22,20 +22,44 @@ export const GlobalStyles = createGlobalStyle`
     vertical-align: baseline;
     box-sizing: border-box;
   }
+  
+  html {
+    ::before, ::after {
+      content:'';
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      width: 24px;
+      background: ${({ theme }) => theme.backgrounds.body};
+    }
+    ::before { left: 0; }
+    ::after { right: 0; }
+  }
 
   body {
     background: ${({ theme }) => theme.backgrounds.body};
     padding: 24px;
-    height: 100vh;
-    width: 100ww;
+    min-height: calc(100vh - 48px);
     transition: background 0.2s ease-in, color 0.2s ease-in;
+    ::before, ::after {
+      content:'';
+      position: fixed;
+      left: 0;
+      right: 0;
+      height: 24px;
+      background: ${({ theme }) => theme.backgrounds.body};
+    }
+    ::before { top: 0; }
+    ::after { bottom: 0; }
   }
+
   h1 {
     color: ${({ theme }) => theme.text};
   }
+
   main {
-    width: 100%;
-    height: 100%;
+    padding: 24px;
+    min-height: calc(100vh - 48px);
     background: ${({ theme }) => theme.backgrounds.main};
   }
 `;
@@ -45,15 +69,10 @@ const colors = {
   white: "#FFFFFF",
   gray000: "#F9F9FC",
   gray100: "#ECEEF1",
-  gray200: "#D4D7DF",
-  gray300: "#B8BDC9",
-  gray400: "#A0A7B8",
-  gray500: "#8991A6",
-  gray600: "#6E7485",
-  gray700: "#525663",
+  gray700: "#505D77",
   gray800: "#41454F",
   gray900: "#31343C",
-  gray1000: "#191a1e",
+  orange: "#DB8454",
 };
 
 const fonts = {
@@ -63,8 +82,8 @@ const fonts = {
 const modes = {
   dark: {
     backgrounds: {
-      body: colors.black,
-      main: colors.gray900,
+      body: colors.gray900,
+      main: colors.gray800,
     },
     svg: {
       hamburger: colors.gray100,

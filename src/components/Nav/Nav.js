@@ -6,40 +6,31 @@ import Hamburger from "./Hamburger";
 import Icon from "../../images/topher_icon.svg";
 
 const Header = styled.header`
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  left: 24px;
+  padding: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
-const Title = styled.span`
-  font-family: ${({ theme }) => theme.fonts.sans};
-  text-transform: uppercase;
-  letter-spacing: 2px;
-`;
+// const Title = styled.span`
+//   font-family: ${({ theme }) => theme.fonts.sans};
+//   text-transform: uppercase;
+//   letter-spacing: 2px;
+// `;
 
 const Nav = () => {
   return (
     <Header>
-      <Title>Topher Young</Title>
       <Link to="/">
         <img src={Icon} alt="Topher Young" />
       </Link>
-      <Hamburger />
       <nav>
-        <ul>
-          <li>
-            <Link to="/">Work</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/work">Work</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
+        <Link to="/work">Experience</Link>
+        <Link to="/bio">Bio</Link>
       </nav>
     </Header>
   );
