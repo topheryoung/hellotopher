@@ -18,7 +18,9 @@ const App = () => {
           }
           isDarkMode={currentTheme === "dark"}
         />
-        <Outlet />
+        <section className="content">
+          <Outlet />
+        </section>
       </main>
     </ThemeProvider>
   );

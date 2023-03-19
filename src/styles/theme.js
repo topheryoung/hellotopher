@@ -43,7 +43,6 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.backgrounds.body};
     padding: 24px;
     min-height: calc(100vh - 48px);
-    transition: background 0.2s ease-in, color 0.2s ease-in;
     ::before, ::after {
       content:'';
       position: fixed;
@@ -58,8 +57,35 @@ export const GlobalStyles = createGlobalStyle`
 
   main {
     padding: 24px;
-    min-height: calc(100vh - 48px);
+    min-height: calc(100vh - 96px);
+    max-width: 1080px;
+    margin: 0 auto;
     background: ${({ theme }) => theme.backgrounds.main};
+  }
+
+  .content {
+    max-width: 800px;
+    padding: 36px 48px;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: ${({ theme }) => theme.fonts.weight.bold};
+    color: ${({ theme }) => theme.font.h1};
+    margin: 18px 0;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: ${({ theme }) => theme.fonts.weight.normal};
+    color: ${({ theme }) => theme.font.p};
+  }
+
+  hr {
+    width: 40px;
+    border: 1px solid ${({ theme }) => theme.colors.primary};
+    margin: 30px 0 20px;
   }
 `;
 
@@ -92,8 +118,8 @@ const modes = {
       hamburger: colors.gray100,
     },
     font: {
-      h1: colors.gray100,
-      text: colors.gray100,
+      h1: colors.gray000,
+      p: colors.gray100,
     },
     border: colors.gray100,
   },
@@ -107,7 +133,7 @@ const modes = {
     },
     font: {
       h1: colors.gray900,
-      text: colors.gray900,
+      p: colors.gray800,
     },
     border: colors.gray900,
   },

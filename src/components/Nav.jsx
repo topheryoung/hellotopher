@@ -37,7 +37,7 @@ const Navigation = styled.nav`
     a {
       font-size: 16px;
       font-weight: ${({ theme }) => theme.fonts.weight.normal};
-      color: ${({ theme }) => theme.font.text};
+      color: ${({ theme }) => theme.font.p};
       text-decoration: none;
       position: relative;
       text-decoration: none;
@@ -103,7 +103,7 @@ const Nav = ({ toggleTheme, isDarkMode }) => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g clip-path="url(#icon)">
+          <g clipPath="url(#icon)">
             <path d="M40 0H0v40h40V0Z" className="iconbg" fill="#DB8454" />
             <path
               className="icontext"
