@@ -21,6 +21,10 @@ export const GlobalStyles = createGlobalStyle`
     vertical-align: baseline;
     box-sizing: border-box;
   }
+
+  * {
+    font-family: ${({ theme }) => theme.fonts.sans};
+  }
   
   html {
     ::before, ::after {
@@ -52,10 +56,6 @@ export const GlobalStyles = createGlobalStyle`
     ::after { bottom: 0; }
   }
 
-  h1 {
-    color: ${({ theme }) => theme.text};
-  }
-
   main {
     padding: 24px;
     min-height: calc(100vh - 48px);
@@ -71,11 +71,15 @@ const colors = {
   gray700: "#505D77",
   gray800: "#41454F",
   gray900: "#31343C",
-  orange: "#DB8454",
+  primary: "#DB8454",
 };
 
 const fonts = {
-  sans: "'Outfit', sans-serif",
+  sans: "'IBM Plex Sans', Helvetica, sans-serif;",
+  weight: {
+    normal: 400,
+    bold: 600,
+  },
 };
 
 const modes = {
@@ -89,7 +93,9 @@ const modes = {
     },
     font: {
       h1: colors.gray100,
+      text: colors.gray100,
     },
+    border: colors.gray100,
   },
   light: {
     backgrounds: {
@@ -101,7 +107,9 @@ const modes = {
     },
     font: {
       h1: colors.gray900,
+      text: colors.gray900,
     },
+    border: colors.gray900,
   },
 };
 
