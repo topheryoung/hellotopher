@@ -38,7 +38,6 @@ const Navigation = styled.nav`
       font-size: 16px;
       font-weight: ${({ theme }) => theme.fonts.weight.normal};
       color: ${({ theme }) => theme.font.p};
-      text-decoration: none;
       position: relative;
       text-decoration: none;
       display: inline-block;

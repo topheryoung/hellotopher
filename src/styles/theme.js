@@ -78,6 +78,7 @@ export const GlobalStyles = createGlobalStyle`
   p {
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 12px;
     font-weight: ${({ theme }) => theme.fonts.weight.normal};
     color: ${({ theme }) => theme.font.p};
   }
@@ -86,6 +87,13 @@ export const GlobalStyles = createGlobalStyle`
     width: 40px;
     border: 1px solid ${({ theme }) => theme.colors.primary};
     margin: 30px 0 20px;
+  }
+
+  .inline-link {
+    font-size: 18px;
+    font-weight: ${({ theme }) => theme.fonts.weight.normal};
+    color: ${({ theme }) => theme.font.a};
+    text-decoration: none;
   }
 `;
 
@@ -114,28 +122,24 @@ const modes = {
       body: colors.gray900,
       main: colors.gray800,
     },
-    svg: {
-      hamburger: colors.gray100,
-    },
     font: {
       h1: colors.gray000,
       p: colors.gray100,
+      a: colors.primary,
     },
-    border: colors.gray100,
+    svg: colors.gray000,
   },
   light: {
     backgrounds: {
       body: colors.white,
       main: colors.gray000,
     },
-    svg: {
-      hamburger: colors.gray900,
-    },
     font: {
       h1: colors.gray900,
       p: colors.gray800,
+      a: colors.primary,
     },
-    border: colors.gray900,
+    svg: colors.gray900,
   },
 };
 
