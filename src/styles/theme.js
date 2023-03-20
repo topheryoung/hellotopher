@@ -66,6 +66,9 @@ export const GlobalStyles = createGlobalStyle`
   .content {
     max-width: 800px;
     padding: 36px 48px;
+    &.full-width {
+      max-width: 100%;
+    }
   }
 
   h1 {
@@ -102,6 +105,7 @@ const colors = {
   white: "#FFFFFF",
   gray000: "#F9F9FC",
   gray100: "#ECEEF1",
+  gray200: "#D4D7DF",
   gray700: "#505D77",
   gray800: "#41454F",
   gray900: "#31343C",
@@ -125,6 +129,7 @@ const modes = {
     font: {
       h1: colors.gray000,
       p: colors.gray100,
+      li: colors.gray200,
       a: colors.primary,
     },
     svg: colors.gray000,
@@ -137,6 +142,7 @@ const modes = {
     font: {
       h1: colors.gray900,
       p: colors.gray800,
+      li: colors.gray700,
       a: colors.primary,
     },
     svg: colors.gray900,

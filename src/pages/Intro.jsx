@@ -1,7 +1,7 @@
 import Social from "../components/Social";
 
 const Intro = () => (
-  <div>
+  <section className="content">
     <h1>Topher Young</h1>
     <p>
       I am a software product and engineering leader currently in Portland, OR
@@ -22,7 +22,7 @@ const Intro = () => (
     </p>
     <hr />
     <Social />
-  </div>
+  </section>
 );
 
 export default Intro;
