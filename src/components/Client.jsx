@@ -1,14 +1,18 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+const DarkModeSVG = css`
+  &.has-dark-version {
+    path {
+      fill: ${({ theme }) => theme.svg};
+    }
+  }
+`;
 
 const ClientContainer = styled.article`
   width: 48%;
   margin-bottom: 48px;
-  svg {
-    height: 36px;
-    width: auto;
-    margin-bottom: 8px;
-  }
   p {
+    margin-top: 12px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -23,6 +27,13 @@ const ClientContainer = styled.article`
         font-size: 12px;
       }
     }
+  }
+  svg {
+    display: block;
+    height: 36px;
+    width: auto;
+    max-width: 164px;
+    ${({ theme }) => theme.type === "dark" && DarkModeSVG}
   }
 `;
 

@@ -78,7 +78,7 @@ const Work = () => (
         logo={<Gigaphoton />}
         desc="Launched the two Gigaphoton software products: Fabscape, a customizable platform to manage equipment data and an internal interactive visualization Product Roadmap."
         role="Tech Lead / Full-stack Engineer"
-        date="2016-2019"
+        date="2017-2019"
         website="https://www.gigaphoton.com/"
       />
       <Client

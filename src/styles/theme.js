@@ -172,4 +172,5 @@ export const theme = (type) => ({
   ...modes[type],
   colors,
   fonts,
+  type,
 });
