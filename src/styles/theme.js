@@ -34,6 +34,7 @@ export const GlobalStyles = createGlobalStyle`
       bottom: 0;
       width: 24px;
       background: ${({ theme }) => theme.backgrounds.body};
+      z-index: 99;
     }
     ::before { left: 0; }
     ::after { right: 0; }
@@ -50,6 +51,7 @@ export const GlobalStyles = createGlobalStyle`
       right: 0;
       height: 24px;
       background: ${({ theme }) => theme.backgrounds.body};
+      z-index: 99;
     }
     ::before { top: 0; }
     ::after { bottom: 0; }
@@ -73,9 +75,17 @@ export const GlobalStyles = createGlobalStyle`
 
   h1 {
     font-size: 48px;
+    line-height: 52px;
     font-weight: ${({ theme }) => theme.fonts.weight.bold};
     color: ${({ theme }) => theme.font.h1};
-    margin: 18px 0;
+    margin: 8px 0 18px 0;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-family: ${({ theme }) => theme.fonts.mono};
+    font-weight: ${({ theme }) => theme.fonts.weight.normal};
+    color: ${({ theme }) => theme.font.h3};
   }
 
   p {
@@ -106,6 +116,10 @@ const colors = {
   gray000: "#F9F9FC",
   gray100: "#ECEEF1",
   gray200: "#D4D7DF",
+  gray300: "#B8BDC9",
+  gray400: "#A0A7B8",
+  gray500: "#8991A6",
+  gray600: "#6E7485",
   gray700: "#505D77",
   gray800: "#41454F",
   gray900: "#31343C",
@@ -114,6 +128,7 @@ const colors = {
 
 const fonts = {
   sans: "'IBM Plex Sans', Helvetica, sans-serif;",
+  mono: "'IBM Plex Mono', monospace;",
   weight: {
     normal: 400,
     bold: 600,
@@ -128,9 +143,11 @@ const modes = {
     },
     font: {
       h1: colors.gray000,
-      p: colors.gray100,
+      h3: colors.gray400,
+      p: colors.gray200,
       li: colors.gray200,
       a: colors.primary,
+      nav: colors.white,
     },
     svg: colors.gray000,
   },
@@ -141,9 +158,11 @@ const modes = {
     },
     font: {
       h1: colors.gray900,
-      p: colors.gray800,
+      h3: colors.gray500,
+      p: colors.gray700,
       li: colors.gray700,
       a: colors.primary,
+      nav: colors.black,
     },
     svg: colors.gray900,
   },
