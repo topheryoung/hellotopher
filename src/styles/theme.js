@@ -25,6 +25,11 @@ export const GlobalStyles = createGlobalStyle`
   * {
     font-family: ${({ theme }) => theme.fonts.sans};
   }
+
+  ::selection {
+    background-color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.white};
+  }
   
   html {
     ::before, ::after {

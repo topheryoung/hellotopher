@@ -7,6 +7,7 @@ import { ReactComponent as Gates } from "../assets/clients/gates.svg";
 import { ReactComponent as Gigaphoton } from "../assets/clients/gigaphoton.svg";
 import { ReactComponent as Siemens } from "../assets/clients/siemens.svg";
 import { ReactComponent as Vibe } from "../assets/clients/vibevans.svg";
+import { ReactComponent as NewPrimal } from "../assets/clients/newprimal.svg";
 
 const ClientList = styled.section`
   display: flex;
@@ -92,6 +93,12 @@ const Work = () => (
         desc="Front-end engineer contracted via Graybox for Mentor Graphics (now Siemens) responsible for building their internal employee Time Tracking mobile/web application."
         role="[Contractor] Front-end Engineer"
         date="2016-2017"
+      />
+      <Client
+        logo={<NewPrimal />}
+        desc="Front-end engineer contracted via Graybox for Mentor Graphics (now Siemens) responsible for building their internal employee Time Tracking mobile/web application."
+        role="UX Designer / Front-end Developer"
+        date="2015-2016"
       />
     </ClientList>
   </div>
