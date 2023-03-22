@@ -67,9 +67,12 @@ export const GlobalStyles = createGlobalStyle`
 
   .content {
     max-width: 800px;
-    padding: 36px 48px;
+    padding: 48px 0;
     &.full-width {
       max-width: 100%;
+    }
+    @media only screen and (min-width: 415px) {
+      padding: 36px 48px;
     }
   }
 

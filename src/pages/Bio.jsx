@@ -3,19 +3,26 @@ import Social from "../components/Social";
 import Topher from "/topher.jpg";
 
 const TwoCol = styled.div`
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-between; */
   img {
-    width: 33%;
-    height: auto;
-    margin-left: 36px;
+    width: 90%;
+    @media (min-width: 821px) {
+      width: 33%;
+    }
+    @media (min-width: 415px) {
+      float: right;
+      width: 42%;
+      height: auto;
+      margin: 0 0 0 36px;
+    }
   }
 `;
 
 const Content = styled.div`
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 `;
 
 const Bio = () => (
@@ -24,6 +31,7 @@ const Bio = () => (
       <h3>About Me</h3>
       <h1>Hello World</h1>
       <TwoCol>
+        <img src={Topher} alt="Hello" />
         <Content>
           <p>
             The name is Topher (short for Christopher) and I like making awesome
@@ -54,7 +62,6 @@ const Bio = () => (
             . Let's make something awesome together!
           </p>
         </Content>
-        <img src={Topher} alt="Hello" />
       </TwoCol>
       <hr />
       <Social />

@@ -5,10 +5,13 @@ import Light from "../assets/light.svg";
 import Dark from "../assets/dark.svg";
 
 const NavContainer = styled.header`
-  padding: 36px 48px;
+  padding: 12px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (min-width: 415px) {
+    padding: 36px 48px;
+  }
 `;
 
 const Icon = styled.div`

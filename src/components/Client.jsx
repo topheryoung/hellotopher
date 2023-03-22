@@ -9,8 +9,11 @@ const DarkModeSVG = css`
 `;
 
 const ClientContainer = styled.article`
-  width: 48%;
+  width: 100%;
   margin-bottom: 48px;
+  @media (min-width: 821px) {
+    width: 48%;
+  }
   p {
     margin-top: 12px;
     font-size: 16px;
