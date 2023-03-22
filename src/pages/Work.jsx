@@ -72,28 +72,26 @@ const Work = () => (
         desc="Developed and launched an internal research dashboard for the Gates Foundation that leveraged data visualization and GPS mapping."
         role="[Contractor] Full-stack Engineer"
         date="2018-2020"
-        website="https://www.acorns.com/"
       />
       <Client
         logo={<Gigaphoton />}
         desc="Launched the two Gigaphoton software products: Fabscape, a customizable platform to manage equipment data and an internal interactive visualization Product Roadmap."
         role="Tech Lead / Full-stack Engineer"
         date="2017-2019"
-        website="https://www.gigaphoton.com/"
+        website="https://www.gigaphoton.com/products/7681"
       />
       <Client
         logo={<Vibe />}
         desc="Full-stack contractor for the LA-based startup, Vibe Vans. Built and launched their iOS/Android application to integrate into their IoT service for their van fleet."
         role="Full-stack Engineer"
         date="2018-2019"
-        website="https://www.gigaphoton.com/"
+        website="https://www.vibevans.la/"
       />
       <Client
         logo={<Siemens />}
         desc="Front-end engineer contracted via Graybox for Mentor Graphics (now Siemens) responsible for building their internal employee Time Tracking mobile/web application."
         role="[Contractor] Front-end Engineer"
         date="2016-2017"
-        website="https://www.gigaphoton.com/"
       />
     </ClientList>
   </div>

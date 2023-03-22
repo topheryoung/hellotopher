@@ -44,11 +44,13 @@ const Client = ({ logo, desc, role, date, website }) => (
     <ul>
       <li>Role: {role}</li>
       <li>Dates: {date}</li>
-      <li>
-        <a href={website} className="inline-link">
-          Visit Website
-        </a>
-      </li>
+      {website ? (
+        <li>
+          <a href={website} target="_blank" className="inline-link">
+            Visit Website
+          </a>
+        </li>
+      ) : null}
     </ul>
   </ClientContainer>
 );
