@@ -35,8 +35,8 @@ const Bio = () => (
         <Content>
           <p>
             The name is Topher (short for Christopher) and I like making awesome
-            web things. While I love diving into the latest technologies and
-            pushing the limits of what's possible online, I also know how
+            things for the web. While I love diving into the latest technologies
+            and pushing the limits of what's possible online, I also know how
             important it is to step away from the computer and appreciate life's
             other joys.
           </p>

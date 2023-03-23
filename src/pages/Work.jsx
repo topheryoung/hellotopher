@@ -96,9 +96,10 @@ const Work = () => (
       />
       <Client
         logo={<NewPrimal />}
-        desc="Front-end engineer contracted via Graybox for Mentor Graphics (now Siemens) responsible for building their internal employee Time Tracking mobile/web application."
-        role="UX Designer / Front-end Developer"
+        desc="Provided Art Direction in the rebrand efforts for New Primals packaging and marketing collateral along with designing/building the corresponding marketing website."
+        role="Art Direction / Front-end Developer"
         date="2015-2016"
+        website="https://thenewprimal.com/"
       />
     </ClientList>
   </div>
