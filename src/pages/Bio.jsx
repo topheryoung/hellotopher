@@ -50,8 +50,7 @@ const Bio = () => (
             I also enjoy spending quality time with my amazing family, hitting a
             round of golf, catching a soccer match, or immersing myself in the
             world of a Soulsborne video game. But there's nothing quite like
-            sipping a pint of beer in the great outdoors - that's my happy
-            place.
+            having a pint of beer in the great outdoors - that's my happy place.
           </p>
           <p>
             If you're looking for a creative and skilled collaborator for your
