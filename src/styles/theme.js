@@ -115,6 +115,10 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: ${({ theme }) => theme.fonts.weight.normal};
     color: ${({ theme }) => theme.font.a};
     text-decoration: none;
+    opacity: 1;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 `;
 
