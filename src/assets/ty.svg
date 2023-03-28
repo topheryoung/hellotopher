@@ -1,0 +1,9 @@
+<svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#a)">
+<path d="M40 0H0v40h40V0Z" fill="#DB8454" className="iconbg"/>
+<path d="M21.46 11.92V8.19h-2.92v3.73H8.33v2.93h10.21v3.73h2.92v-3.73h10.21v-2.93H21.46ZM28.75 25h-17.5v-3.73H8.33v5a1.8 1.8 0 0 0 1.79 1.8h8.42v3.73h2.92v-3.72h8.42a1.8 1.8 0 0 0 1.79-1.8v-5h-2.92V25Z" fill="#F9F9FC" className="icontext" />
+</g>
+<defs>
+<clipPath id="a"><path fill="#fff" d="M0 0h40v40H0z"/></clipPath>
+</defs>
+</svg>
