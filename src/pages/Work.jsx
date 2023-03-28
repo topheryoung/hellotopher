@@ -51,7 +51,7 @@ const Work = () => (
         logo={<Embed />}
         desc="Defined, prioritized, managed, and delivered web/UI products for Embed Financial Technologies that resulted in an acquisition from FTX.US in July 2022."
         role="Product Lead / Lead UX & Front-end Engineer"
-        date="2020-2023"
+        date="2020-Current"
         website="https://www.embed.com/"
       />
       <Client
