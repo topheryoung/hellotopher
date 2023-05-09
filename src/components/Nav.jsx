@@ -110,7 +110,7 @@ const ThemeButton = styled.button`
 const Nav = ({ toggleTheme, isDarkMode }) => {
   return (
     <NavContainer>
-      <Link to="/">
+      <Link to="/" aria-label="Topher Young - Home">
         <Icon>
           <TYlogo />
         </Icon>
