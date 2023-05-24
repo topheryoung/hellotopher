@@ -16,11 +16,11 @@ const Intro = () => (
       non-profits to startups to enterprise-level organizations.
     </p>
     <p>
-      Currently, I am applying my skills as a member of the team at{" "}
-      <a href="https://embed.com" target="_blank" className="inline-link">
-        Embed Financial Technologies
-      </a>{" "}
-      (acquired by FTX.US).
+      Currently, I am looking for my next exciting opportunity. If you are
+      interested in working together, contact me at{" "}
+      <a href="mailto:topher@hellotopher.com" className="inline-link">
+        topher@hellotopher.com
+      </a>
     </p>
     <hr />
     <Social />
