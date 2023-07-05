@@ -31,7 +31,7 @@ const Bio = () => (
       <h3>About Me</h3>
       <h1>Hello World</h1>
       <TwoCol>
-        <img src={Topher} alt="Hello" />
+        <img src={Topher} alt="Hello, I'm Topher" />
         <Content>
           <p>
             The name is Topher (short for Christopher) and I like making awesome

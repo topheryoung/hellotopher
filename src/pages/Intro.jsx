@@ -5,10 +5,9 @@ const Intro = () => (
     <h3>Introduction</h3>
     <h1>Topher Young</h1>
     <p>
-      I am a software product and engineering leader located in Portland, OR,
-      with a passion for creating exceptional web-based applications and
-      products, building and mentoring talented teams, and delivering
-      top-quality software.
+      I am a software engineering and product leader with a passion for creating
+      exceptional web-based applications and products, building and mentoring
+      talented teams, and delivering top-quality software.
     </p>
     <p>
       While my expertise lies in fintech, I have a extensive of experience in
