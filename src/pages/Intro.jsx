@@ -10,8 +10,8 @@ const Intro = () => (
       talented teams, and delivering top-quality software.
     </p>
     <p>
-      While my expertise lies in fintech, I have a extensive of experience in
-      the agency space, building solutions for an array of clients ranging from
+      While my expertise lies in fintech, I have extensive experience in the
+      agency space, building solutions for an array of clients ranging from
       non-profits to startups to enterprise-level organizations.
     </p>
     <p>
