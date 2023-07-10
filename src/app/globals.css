@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 214, 219, 220;
+  --main-rgb: 255, 255, 255;
+  --primary: #2babe2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 49, 52, 60;
+    --main-rgb: 65, 69, 79;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 24px;
+  background: rgb(var(--background-rgb));
+  z-index: 40;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 24px;
+  background: rgb(var(--background-rgb));
+  z-index: 40;
+}
+
+main {
+  background: rgb(var(--main-rgb));
+}
+
+.logo {
+  background: var(--primary);
+}
