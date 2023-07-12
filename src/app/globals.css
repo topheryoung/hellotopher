@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 214, 219, 220;
-  --main-rgb: 255, 255, 255;
-  --primary: #2babe2;
+  --text-rgb: 49, 52, 60;
+  --background-rgb: 255, 255, 255;
+  --main-rgb: 249, 249, 252;
+  --primary-rgb: 219, 132, 84;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --text-rgb: 255, 255, 255;
     --background-rgb: 49, 52, 60;
     --main-rgb: 65, 69, 79;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--text-rgb));
   background: rgb(var(--background-rgb));
 }
 
@@ -49,5 +49,5 @@ main {
 }
 
 .logo {
-  background: var(--primary);
+  background: rgb(var(--primary-rgb));
 }
