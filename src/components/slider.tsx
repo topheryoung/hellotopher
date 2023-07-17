@@ -70,7 +70,7 @@ const Carousel = ({ slides }: Props) => {
           <DotButton
             key={index}
             onClick={() => scrollTo(index)}
-            className={"h-2 w-3 bg-black/[0.3] mx-2".concat(
+            className={"h-2 w-2 bg-black/[0.3] mx-2".concat(
               index === selectedIndex ? " bg-orange-500" : ""
             )}
           />

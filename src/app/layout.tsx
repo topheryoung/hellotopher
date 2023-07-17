@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Header />
         <main className="flex min-h-screen flex-col items-center justify-between max-w-6xl mx-auto my-6 py-12">
           {children}
+          <Footer />
         </main>
       </body>
     </html>

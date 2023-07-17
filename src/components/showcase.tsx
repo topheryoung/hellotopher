@@ -10,6 +10,7 @@ interface Props {
   roles: string;
   dates: string;
   desc: string;
+  website?: string;
   children: React.ReactNode;
 }
 
@@ -20,6 +21,7 @@ const Showcase = ({
   roles,
   dates,
   desc,
+  website,
   children,
 }: Props) => {
   return (
@@ -33,10 +35,21 @@ const Showcase = ({
         </h1>
       </div>
       {children}
-      <div className="grid gap-4 grid-cols-2 grid-rows-1">
+      <div className="grid gap-4 grid-cols-2 grid-rows-1 font-light">
         <ul>
-          <li>Roles: {roles}</li>
-          <li>Dates: {dates}</li>
+          <li>
+            <span className="text-orange-400">Roles</span>: {roles}
+          </li>
+          <li>
+            <span className="text-orange-400">Dates</span>: {dates}
+          </li>
+          {website ? (
+            <li>
+              <a href={website} target="_blank" className="text-orange-400">
+                Visit Website
+              </a>
+            </li>
+          ) : null}
         </ul>
         <p>{desc}</p>
       </div>
