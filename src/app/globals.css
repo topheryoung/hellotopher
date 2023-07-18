@@ -22,7 +22,7 @@ body {
   background: rgb(var(--background-rgb));
 }
 
-body::before {
+/* body::before {
   content: "";
   position: fixed;
   top: 0;
@@ -31,9 +31,9 @@ body::before {
   height: 24px;
   background: rgb(var(--background-rgb));
   z-index: 40;
-}
+} */
 
-body::after {
+/* body::after {
   content: "";
   position: fixed;
   bottom: 0;
@@ -42,7 +42,7 @@ body::after {
   height: 24px;
   background: rgb(var(--background-rgb));
   z-index: 40;
-}
+} */
 
 main {
   background: rgb(var(--main-rgb));

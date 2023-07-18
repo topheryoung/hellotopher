@@ -19,15 +19,15 @@ export default function Home() {
         <Carousel
           slides={[
             {
-              src: "/embed/brand.png",
-              alt: "Embed Brand",
+              src: "/embed/branding.png",
+              alt: "Embed style guide",
             },
             {
-              src: "/embed/docs.png",
+              src: "/embed/documentation.png",
               alt: "Embed API Documentation & Reference Mockup",
             },
             {
-              src: "/embed/components.png",
+              src: "/embed/designlib.png",
               alt: "Embed Design System components",
             },
           ]}
@@ -46,11 +46,11 @@ export default function Home() {
         <Carousel
           slides={[
             {
-              src: "/acorns/smartdeposit.png",
+              src: "/acorns/sd.png",
               alt: "Acorns Smart Deposit product",
             },
             {
-              src: "/acorns/chrome.png",
+              src: "/acorns/ext.png",
               alt: "Acorns Found Money Chrome Extension",
             },
           ]}
@@ -59,29 +59,6 @@ export default function Home() {
 
       <Showcase
         index={{ current: 3, total: 5 }}
-        name="Finicons"
-        header="Simple and effective fintech logo product that creates a useable, designer friendly 'source of truth' resources for the Dow 20 and Nasdaw 100 US financial brands"
-        roles="Founder, Designer, & Developer"
-        dates="2023-2023"
-        website="https://batchgeo.com"
-        desc="Acorns Smart Deposit feature was an automatic investment that would take in a users percentage preference and withdraw it based on their anticipated payday. Found Money Chrome Extension was an in-browser bonus earner that would track purchases from Acorns' brand partners"
-      >
-        <Carousel
-          slides={[
-            {
-              src: "/batchgeo/pricing.png",
-              alt: "Batchgeo Pricing mockup",
-            },
-            {
-              src: "/batchgeo/ipad.png",
-              alt: "Batchgeo iPad application",
-            },
-          ]}
-        />
-      </Showcase>
-
-      <Showcase
-        index={{ current: 4, total: 5 }}
         name="Gigaphoton"
         header="Simple and effective fintech logo product that creates a useable, designer friendly source of truth for the Dow 20 and Nasdaw 100 US financial brands"
         roles="UX/Frontend Developer"
@@ -92,8 +69,35 @@ export default function Home() {
         <Carousel
           slides={[
             {
-              src: "/gigaphoton/platform.png",
-              alt: "Batchgeo Pricing mockup",
+              src: "/gigaphoton/ui.png",
+              alt: "Gigaphoton in web browser",
+            },
+            {
+              src: "/gigaphoton/screenset.png",
+              alt: "Gigaphoton screen set",
+            },
+          ]}
+        />
+      </Showcase>
+
+      <Showcase
+        index={{ current: 4, total: 5 }}
+        name="Finicons"
+        header="Simple and effective fintech logo product that creates a useable, designer friendly 'source of truth' resources for the Dow 20 and Nasdaq 100 US financial brands"
+        roles="Founder, Designer, & Developer"
+        dates="2023-2023"
+        website="https://topheryoung.github.io/finicons/"
+        desc="Finicons is a simple, lightweight app (and future API) that can be used as a design resource for fintech products. Logo searching tends to be a convoluted process and getting them into a product can be time and resource consuming."
+      >
+        <Carousel
+          slides={[
+            {
+              src: "/finicons/app.png",
+              alt: "Finicons Home Page",
+            },
+            {
+              src: "/finicons/logoset.png",
+              alt: "Finicons logo source",
             },
           ]}
         />
@@ -111,11 +115,11 @@ export default function Home() {
         <Carousel
           slides={[
             {
-              src: "/batchgeo/pricing.png",
+              src: "/batchgeo/ipadapp.png",
               alt: "Batchgeo Pricing mockup",
             },
             {
-              src: "/batchgeo/ipad.png",
+              src: "/batchgeo/pricingpage.png",
               alt: "Batchgeo iPad application",
             },
           ]}
