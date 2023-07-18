@@ -31,7 +31,8 @@ const Showcase = ({
           0{index.current}/0{index.total}
         </small>
         <h1 className="text-4xl">
-          <strong>{name}</strong> - <span className="font-light">{header}</span>
+          <strong>{name}</strong>
+          <span className="font-light"> — {header}</span>
         </h1>
       </div>
       {children}

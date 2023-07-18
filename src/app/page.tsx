@@ -10,11 +10,11 @@ export default function Home() {
 
       <Showcase
         index={{ current: 1, total: 5 }}
-        name="Embed/FTX"
-        header="Building a industry defining clearing & custody platform that transforms the ancient ways by building an event driven API and UI platform for developers by developers"
-        roles="Lead Frontend Developer & Product Lead"
-        dates="2020-2023"
-        desc="Embed was a fintech startup that challenged the status quo of how clearing and custody of US equities, mutual funds, crypto are done in the industry. This API driven platform launched in 2021 and was acquired by FTX.US in 2022."
+        name="Embed/FTX.US"
+        header="Revolutionizing clearing & custody with an event-driven API and dedicated UI platform that modernizes archaic practices, setting new standards in the industry."
+        roles="Lead Frontend Developer | Product Lead"
+        dates="2020 - 2023"
+        desc="Embed, a trailblazing fintech startup, disrupted the norms of clearing and custody for US equities, mutual funds, and crypto. Its API-driven platform debuted in 2021 and was acquired by FTX.US in 2022."
       >
         <Carousel
           slides={[
@@ -37,11 +37,11 @@ export default function Home() {
       <Showcase
         index={{ current: 2, total: 5 }}
         name="Acorns"
-        header="Making passive investing even easier with the launch of the Smart Deposit feature as well as a complete overhaul on the Found Money Chrome Extension"
+        header="Simplifying passive investing through the launch of Smart Deposit and the Found Money Chrome Extension, empowering users with seamless investment opportunities."
         roles="Senior Software Engineer"
-        dates="2019-2020"
+        dates="2019 - 2020"
         website="https://acorns.com"
-        desc="Acorns Smart Deposit feature was an automatic investment that would take in a users percentage preference and withdraw it based on their anticipated payday. Found Money Chrome Extension was an in-browser bonus earner that would track purchases from Acorns' brand partners"
+        desc="Acorns Smart Deposit feature automated investments by withdrawing a user's preferred percentage on their anticipated payday. The Found Money Chrome Extension tracked purchases from Acorns' brand partners, rewarding users with in-browser bonuses for their transactions."
       >
         <Carousel
           slides={[
@@ -60,11 +60,10 @@ export default function Home() {
       <Showcase
         index={{ current: 3, total: 5 }}
         name="Gigaphoton"
-        header="Simple and effective fintech logo product that creates a useable, designer friendly source of truth for the Dow 20 and Nasdaw 100 US financial brands"
-        roles="UX/Frontend Developer"
-        dates="2018-2029"
-        website="https://batchgeo.com"
-        desc="Acorns Smart Deposit feature was an automatic investment that would take in a users percentage preference and withdraw it based on their anticipated payday. Found Money Chrome Extension was an in-browser bonus earner that would track purchases from Acorns' brand partners"
+        header="Creating an immersive internal visualization Product Roadmap by harnessing isometric design and leveraging the power of D3.js for a dynamic and engaging user experience."
+        roles="Frontend Developer & UX Designer"
+        dates="2018 - 2019"
+        desc="After architecting their Fabscape UI platform, Gigaphoton contracted me out to build out an interactive, highly visual representation of their product roadmap to be used in a wide array of presentations."
       >
         <Carousel
           slides={[
@@ -83,9 +82,9 @@ export default function Home() {
       <Showcase
         index={{ current: 4, total: 5 }}
         name="Finicons"
-        header="Simple and effective fintech logo product that creates a useable, designer friendly 'source of truth' resources for the Dow 20 and Nasdaq 100 US financial brands"
+        header="Crafting a sleek and impactful fintech logo product that serves as a reliable and user-friendly resource, providing designers with a 'source of truth' for US financial brands."
         roles="Founder, Designer, & Developer"
-        dates="2023-2023"
+        dates="2023 - Current"
         website="https://topheryoung.github.io/finicons/"
         desc="Finicons is a simple, lightweight app (and future API) that can be used as a design resource for fintech products. Logo searching tends to be a convoluted process and getting them into a product can be time and resource consuming."
       >
@@ -106,11 +105,11 @@ export default function Home() {
       <Showcase
         index={{ current: 5, total: 5 }}
         name="Batchgeo"
-        header="Launching tiered pricing and iPad native support for a geocoding powerhouse application that has created over 17 million maps from Excel datasets"
+        header="Introduced tiered pricing, iPad native support, and website redesigns to a powerful geocoding application, which has generated over 17 million maps from Excel datasets."
         roles="UX/Frontend Developer"
-        dates="2018-2029"
+        dates="2018 - 2019"
         website="https://batchgeo.com"
-        desc="Acorns Smart Deposit feature was an automatic investment that would take in a users percentage preference and withdraw it based on their anticipated payday. Found Money Chrome Extension was an in-browser bonus earner that would track purchases from Acorns' brand partners"
+        desc="Batchgeo sought expert design and frontend assistance to revamp their website and tiered pricing system. Additionally, we collaborated on implementing a robust search feature for their native applications and single-page application (SPA), enhancing their overall user experience."
       >
         <Carousel
           slides={[
