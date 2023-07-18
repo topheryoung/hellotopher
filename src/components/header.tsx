@@ -7,7 +7,7 @@ const Header = () => {
         <h1 className="flex uppercase basis-1/3 tracking-wider p-6 text-xs">
           Chris <span className="opacity-75 mx-1">Topher</span> Young
         </h1>
-        <div className="logo flex p-4 pt-16 ml-6">
+        <Link href="/" className="logo flex p-4 pt-16 ml-6">
           <svg
             width="25"
             height="26"
@@ -24,7 +24,7 @@ const Header = () => {
               fill="#F9F9FC"
             />
           </svg>
-        </div>
+        </Link>
         <nav className="p-6 flex basis-1/3 uppercase tracking-wider text-xs justify-end">
           <ul className="flex space-x-4">
             <li>
