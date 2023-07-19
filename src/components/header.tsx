@@ -4,9 +4,12 @@ const Header = () => {
   return (
     <header className="absolute top-0 w-full z-50">
       <div className="flex items-end justify-between max-w-6xl mx-auto px-6">
-        <h1 className="flex uppercase basis-1/3 tracking-wider p-6 text-xs">
+        <Link
+          href="/"
+          className="flex uppercase basis-1/3 tracking-wider p-6 text-xs"
+        >
           Chris <span className="opacity-75 mx-1">Topher</span> Young
-        </h1>
+        </Link>
         <Link href="/" className="logo flex p-4 pt-16 ml-6">
           <svg
             width="25"

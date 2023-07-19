@@ -39,10 +39,10 @@ const Showcase = ({
       <div className="grid gap-4 grid-cols-2 grid-rows-1 font-light">
         <ul>
           <li>
-            <span className="text-orange-400">Roles</span>: {roles}
+            <span className="text-orange-400">Roles :</span> {roles}
           </li>
           <li>
-            <span className="text-orange-400">Dates</span>: {dates}
+            <span className="text-orange-400">Dates :</span> {dates}
           </li>
           {website ? (
             <li>
