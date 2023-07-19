@@ -22,7 +22,7 @@ const About = () => {
         <div className="relative grow-0 shrink-0 basis-full aspect-video">
           <Image
             fill
-            src="/toph0.jpg"
+            src="/toph.jpg"
             alt="Hello World, I'm Christopher"
             style={{ objectFit: "cover" }}
             priority
