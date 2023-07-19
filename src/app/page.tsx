@@ -5,8 +5,10 @@ import Carousel from "@/components/slider";
 
 export default function Home() {
   return (
-    <div className="container pt-24 px-12 space-y-52">
-      <h1 className="text-8xl my-48">Developer. Designer. Music Nerd.</h1>
+    <div className="container pt-24 px-12 space-y-18 lg:space-y-52">
+      <h1 className="text-5xl mt-12 mb-24 lg:text-8xl lg:my-48">
+        Developer. Designer. Music Nerd.
+      </h1>
 
       <Showcase
         index={{ current: 1, total: 5 }}

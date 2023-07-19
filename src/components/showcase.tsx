@@ -25,19 +25,19 @@ const Showcase = ({
   children,
 }: Props) => {
   return (
-    <article className="relative flex flex-col space-y-12 my-24">
+    <article className="relative flex flex-col space-y-8 lg:space-y-12 my-12 lg:my-24">
       <div>
         <small className="text-orange-400">
           0{index.current}/0{index.total}
         </small>
-        <h1 className="text-4xl">
+        <h1 className="text-2xl lg:text-4xl">
           <strong>{name}</strong>
           <span className="font-light"> — {header}</span>
         </h1>
       </div>
       {children}
-      <div className="grid gap-4 grid-cols-2 grid-rows-1 font-light">
-        <ul>
+      <div className="grid gap-4 grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 font-light">
+        <ul className="order-last lg:order-first">
           <li>
             <span className="text-orange-400">Roles :</span> {roles}
           </li>

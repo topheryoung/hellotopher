@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex items-end justify-between max-w-6xl mx-auto px-6">
         <Link
           href="/"
-          className="flex uppercase basis-1/3 tracking-wider p-6 text-xs"
+          className="flex uppercase basis-1/3 tracking-wider p-6 text-xs hidden md:block"
         >
           Chris <span className="opacity-75 mx-1">Topher</span> Young
         </Link>

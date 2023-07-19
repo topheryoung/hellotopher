@@ -17,7 +17,7 @@ const IconButton = ({ href, label, children }: SocialLink) => (
 
 const Social = () => {
   return (
-    <div className="grid gap-4 grid-cols-2 grid-rows-1 ml-2">
+    <div className="grid gap-4 grid-cols-2 grid-rows-1 lg:ml-2 order-last lg:order-first">
       <div>
         <IconButton href="https://github.com/topheryoung" label="Github">
           <svg

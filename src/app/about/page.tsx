@@ -9,13 +9,13 @@ export const metadata: Metadata = {
 const About = () => {
   return (
     <div className="container pt-24 px-12">
-      <article className="relative flex flex-col space-y-12 mt-24">
-        <h1 className="text-4xl">
+      <article className="relative flex flex-col space-y-8 lg:space-y-12 my-12 lg:my-24">
+        <h1 className="text-2xl lg:text-4xl">
           <strong>Hello World</strong>
           <span className="font-light">
             {" "}
-            — I&apos;m Chris “Topher” Young - a software engineering, design,
-            and product leader with a passion for creating exceptional web-based
+            — I&apos;m Chris “Topher” Young, a software engineering, design, and
+            product leader with a passion for creating exceptional web-based
             applications, products, and experiences.
           </span>
         </h1>
@@ -28,7 +28,7 @@ const About = () => {
             priority
           />
         </div>
-        <div className="grid gap-4 grid-cols-2 grid-rows-1 font-light">
+        <div className="grid gap-4 auto-cols-auto lg:grid-cols-2 lg:grid-rows-1 font-light">
           <Social />
           <div>
             <p className="mb-4">

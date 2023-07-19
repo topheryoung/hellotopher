@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 
 const Mixtapes = () => {
   return (
-    <div className="container pt-24 px-12 space-y-12">
-      <h1 className="text-4xl">
+    <div className="container pt-24 px-12 space-y-12 mb-12 lg:mb-auto">
+      <h1 className="text-2xl lg:text-4xl">
         <strong>Mixtapes</strong>
         <span className="font-light">
           {" "}
@@ -25,7 +25,7 @@ const Mixtapes = () => {
           height={395}
           width={500}
           priority
-          className="ml-[100px]"
+          className="ml-[40px] lg:ml-[100px]"
         />
         <h2 className="text-xl">Tempests of Titan</h2>
         <p className="text-center max-w-xl">
@@ -49,7 +49,7 @@ const Mixtapes = () => {
           height={395}
           width={500}
           priority
-          className="ml-[100px]"
+          className="ml-[40px] lg:ml-[100px]"
         />
         <h2 className="text-xl">Train to Hakone</h2>
         <p className="text-center max-w-xl">
