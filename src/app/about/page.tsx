@@ -1,5 +1,10 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import Social from "@/components/social";
+
+export const metadata: Metadata = {
+  title: "Chris Topher Young - About Me",
+};
 
 const About = () => {
   return (
