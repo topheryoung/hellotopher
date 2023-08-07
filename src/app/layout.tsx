@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -25,6 +26,7 @@ export default function RootLayout({
         <main className="flex min-h-screen flex-col items-center justify-between max-w-6xl mx-auto my-6 py-12">
           {children}
           <Footer />
+          <Analytics />
         </main>
       </body>
     </html>
