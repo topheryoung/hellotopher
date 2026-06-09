@@ -1,15 +1,15 @@
 :root {
   --font-mono: "Space Mono", monospace;
-  --bg: #ffffff;
-  --text: #111111;
-  --accent: #db8454;
+  --bg: #f0f0f0;
+  --text: #1a1a1a;
+  --accent: #ff4802;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #111111;
-    --text: #ffffff;
-    --accent: #db8454;
+    --bg: #1a1a1a;
+    --text: #f0f0f0;
+    --accent: #ff4802;
   }
 }
 
