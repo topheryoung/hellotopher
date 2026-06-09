@@ -61,7 +61,6 @@ header {
   top: 0;
   background: var(--accent);
   padding: 2rem 0 0 0;
-  animation: fadeUp .5s ease both 0s
 }
 
 main {
@@ -151,25 +150,25 @@ a:hover {
 
 
 .title {
-  animation: fadeUp .5s ease both .1s
+  animation: fadeUp .5s ease both 0s;
 }
 
 .sub-title {
-  animation: fadeUp .5s ease both .15s
+  animation: fadeUp .5s ease both .1s;
 }
 
 .elsewhere {
-  animation: fadeUp .5s ease both .22s
+  animation: fadeUp .5s ease both .15s;
 }
 
 .links {
-  animation: fadeUp .5s ease both .28s
+  animation: fadeUp .5s ease both .22s;
 }
 
 .contact {
-  animation: fadeUp .5s ease both .34s
+  animation: fadeUp .5s ease both .28s;
 }
 
 .contact-links {
-  animation: fadeUp .5s ease both .40s
+  animation: fadeUp .5s ease both .34s;
 }
